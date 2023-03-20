@@ -1,1 +1,0 @@
-# Analysis of Street Recognition
