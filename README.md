@@ -1,8 +1,7 @@
 # Projects
 
 ## 2021 Fall/Winter
-### Essay Search Engine
-*[link](https://github.com/tunyuanchang/Projects/tree/main/EssaySearchEngine)*
+### Essay Search Engine <font size=3>[link](https://github.com/tunyuanchang/Projects/tree/main/EssaySearchEngine)</font>
 ###### C++, Algorithms, Data Structures
 * Implement “Trie” to build data structure for searching.
 * Top 5% in class competition.
