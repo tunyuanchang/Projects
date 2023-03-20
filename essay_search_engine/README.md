@@ -1,6 +1,9 @@
 ## Essay Search Engine
 ##### tags: C++, Algorithms, Data Structures
 
+**2021 Fall/Winter**
+*cr: tunyuanchang*
+
 ### Dataset
 Kaggle: [arXiv Dataset](https://www.kaggle.com/datasets/Cornell-University/arxiv)
 
