@@ -20,8 +20,4 @@ Based on the prediction, adopt the method of high-frequency trading.
 
 ## Result
 For test data -
-獲利(Profit): $27351
-總報酬率(%): 27.351226
-年化報酬率(%): 70.001187
-日平均報酬率(%): 0.145485
-Sharpe Ratio: 2.676116
+獲利(Profit): $27351, 總報酬率(%): 27.351226, 年化報酬率(%): 70.001187, 日平均報酬率(%): 0.145485, Sharpe Ratio: 2.676116
