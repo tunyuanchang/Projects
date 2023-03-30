@@ -24,6 +24,13 @@
 ###### Python, Machine Learning, CNN
 * Build a CNN model to recognize cities from Google Street View images.
 * Visualize and analyze the features that machine focus on.
+### Machine Learning
+##### Python, MAchine Learning
+* Dengue Case Prediction
+  * Implement "Gradient Descent" for linear regression from scatch.
+* Diabetes Prediction
+  * Implement "Random Forest" for binary classification fram scatch.
+* 
 
 ### Trading Valley Strategy Design
 ###### Python, Machine Learning
@@ -31,4 +38,5 @@
 
 ## 2023 Spring/Summer
 ### Frequent Patterns
-###### C++
+###### Python, Data Science, Algorithms
+* Implenment "FP-Growth" to find freqent patterns in transactions.
