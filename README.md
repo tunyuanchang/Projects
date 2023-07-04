@@ -91,7 +91,7 @@
 ###### AVR programmimg(avr-gcc, Arduino IDE), Raspberry Pi
 * Timer
 * MIDI Music
-* Board-to-board Communication (UART, I^2^C)
+* Board-to-board Communication (UART, I<sup>2</sup>C)
 * ADC (Analog-to-Digital Converter)
 * Power Management and Sleep Modes
 * Multi-Threads
