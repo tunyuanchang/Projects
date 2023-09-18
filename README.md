@@ -1,3 +1,4 @@
+
 # Projects
 
 ## 2020 Fall/Winter
@@ -15,12 +16,12 @@
 ### Essay Search Engine
 ###### C++, Algorithms, Data Structures
 * Implement "Trie" to build data structure for searching.
-* Top 5% in class competition.
+* Top 10% performance in class competition.
 
 ### Logic Design Laboratory
-###### Verilog, Finite State Machine
+###### Verilog, Finite State Machine, FPGA board
 
-### Socket Programming
+### Socket programming
 ###### Computer and Communications Networks
 * TCP socket programming for both server and clients
 
@@ -28,7 +29,7 @@
 ### Meet Deadline Requirements Challenge
 ###### C++, Multimedia, Networks, Algorithms
 * Design congestion control algorithms to schedule the transmission for real time communication application.
-* Won the first place in class competition.
+* Won the first place performance in class competition.
 
 ### Assembly Coding
 ###### Assembly Code
@@ -72,27 +73,44 @@
 
 ## 2023 Spring/Summer
 ### Data Science
-###### Python, Algorithms
+###### Python, Machine Learning, Algorithms
 * **Frequent Patterns**
     * Implenment "FP-Growth" from scratch to find freqent patterns with support in transactions.
-* **Supervised Binary Classification Problem (Machine Learning)**
+* **Supervised Binary Classification Problem with Machine Learning**
     * Implenment random forest classifier with feature engineering.
     * Including categorical encoding, date and time engineering, outlier engineering and missing data imputation.
     * Adopt the methods of oversampling for imbalanced data to improve performance of model.
-* **Graph Neural Network**
+* **Node Classification with Graph Neural Network**
     * Implement GNN for node classification on PubMed dataset.
     * Test the learning ability of graph neural network with lack of labeled data. (take structural information into account)
-* **Horizontal Federated Learning**
+* **Image Classification with Horizontal Federated Learning**
     * Implement both server and user base for horizontal federated learning with FedAvg algorithms on CIFAR10 dataset.
+    * Discussion:
+        * data distribution v.s. global model accuracy
+        * number of users in a round v.s. global model accuracy and 
+
 * **Graph Adversarial Attack**
     * Implement Nettack algorithms for graph adversarial attack on Cora citation network dataset.
+* **Paper Presentation**
+    * selected paper: Attention, Please! Adversarial Defense via Activation Rectification and Preservation [Adversarial Attacks]
+
+### Analysis of trend in Taiwan stock market
+###### Python, Machine Learning, Pattern Recognition
+* Implement methods of regression and classification to predict the rise or fall of TWSE.
+* Improve the performance with Recurrent Neural Network.
 
 ### Embedded System
 ###### AVR programmimg(avr-gcc, Arduino IDE), Raspberry Pi
 * Timer
 * MIDI Music
-* Board-to-board Communication (UART, I<sup>2</sup>C)
+* Board-to-board Communication (UART, I^2^C)
 * ADC (Analog-to-Digital Converter)
 * Power Management and Sleep Modes
 * Multi-Threads
 * Synchronization (Protection of Critical Section with Mutex Lock & Semaphore)
+
+## 2024 Fall/Winter
+### Parallel Programming
+###### C++, 
+* **Parallel Odd-Even Transposition Sort**
+* 
