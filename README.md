@@ -87,14 +87,14 @@
     * Implement both server and user base for horizontal federated learning with FedAvg algorithms on CIFAR10 dataset.
     * Discussion:
         * data distribution v.s. global model accuracy
-        * number of users in a round v.s. global model accuracy and 
+        * number of users in a round v.s. global model accuracy and global model convergence speed
 
 * **Graph Adversarial Attack**
     * Implement Nettack algorithms for graph adversarial attack on Cora citation network dataset.
 * **Paper Presentation**
     * selected paper: Attention, Please! Adversarial Defense via Activation Rectification and Preservation [Adversarial Attacks]
 
-### Analysis of trend in Taiwan stock market
+### Analysis of Trend in Taiwan Stock Market
 ###### Python, Machine Learning, Pattern Recognition
 * Implement methods of regression and classification to predict the rise or fall of TWSE.
 * Improve the performance with Recurrent Neural Network.
