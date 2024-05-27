@@ -113,4 +113,6 @@
 ### Parallel Programming
 ###### C++, 
 * **Parallel Odd-Even Transposition Sort**
+    * Implement MPI version.
+    * Parallelize the sorting with "Odd-Even Sort" algorithm.
 * 
