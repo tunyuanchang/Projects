@@ -24,10 +24,10 @@ Test 2022-01-01 ~ 2022-09-30
 Trading frequency: buy and sell in one day. (Since ignore any fee and all-in in one trade, use high-frequency trading)
 With the classifier model, if the prediction is rise, buy at open and sell at close in one day. Otherwise, do nothing.
 - Part III:	How's your strategy's performance? Including profit, sharp ratio and asset change chart.
-For test data -
-獲利(Profit): $27351
-總報酬率(%): 27.351226
-年化報酬率(%): 70.001187
-日平均報酬率(%): 0.145485
-Sharpe Ratio: 2.676116
+  For test data -
+    獲利(Profit): $27351
+    總報酬率(%): 27.351226
+    年化報酬率(%): 70.001187
+    日平均報酬率(%): 0.145485
+    Sharpe Ratio: 2.676116
 Asset change chart: as the picture show in report
