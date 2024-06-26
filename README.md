@@ -89,7 +89,7 @@
         * data distribution v.s. global model accuracy
         * number of users in a round v.s. global model accuracy and global model convergence speed
 
-* **Graph Adversarial Attack**
+* **Node Misclassification with Graph Adversarial Attack**
     * Implement Nettack algorithms for graph adversarial attack on Cora citation network dataset.
 * **Paper Presentation**
     * selected paper: Attention, Please! Adversarial Defense via Activation Rectification and Preservation [Adversarial Attacks]
@@ -109,10 +109,57 @@
 * Multi-Threads
 * Synchronization (Protection of Critical Section with Mutex Lock & Semaphore)
 
-## 2024 Fall/Winter
+## 2023 Fall/Winter
 ### Parallel Programming
-###### C++, 
-* **Parallel Odd-Even Transposition Sort**
+###### C++, CUDA, UCX
+* **Odd-Even Sort**
     * Implement MPI version.
     * Parallelize the sorting with "Odd-Even Sort" algorithm.
-* 
+
+* **Mandelbrot Set**
+    * Implement pthread and hybrid(MPI + OpenMP) versions.
+    * Parallelize the calculation of "Mandelbrot Set".
+    
+* **All-Pairs Shortest Path**
+    * Implement CPU(pthread), single-GPU(CUDA) and multi-GPU(CUDA + OpenMP) versions.
+    * Parallelize the calculation of APSP with "Blocked Floyd-Warshall" algorithm.
+    
+* **Observe the behavior of UCX**
+    * Learn the UCX framework and program structure.
+* **Linear Regression with RANSAC**
+    * Implement OpenMP, CUDA and OpenACC versions.
+    * Performance comparison of different parallel methods.
+
+## 2024 Spring/Summer
+### Machine Learning for Anomaly Detection
+###### Python
+* **Anomaly Detection on MNIST**
+    * Implement different anomaly detecting methods on MNIST dataset.
+        * K Nearest Neighbor
+        * Cluster-based (k-means clustering)
+        * Distance-based (Cosine/Minkowski/Mahalanobis distance function)
+        * Density-based (Local Outlier Factor detection algorithm)
+        
+* **Anomaly Detection for Time-Series Data**
+    * Implement different anomaly detecting methods on timeseries dataset(Wafer. ECG200).
+        * PCA Reconstruction
+        * Discrete Fourier Transform
+        * Discrete Haar Wavelet Transform
+        
+* **Deep Learning for Image Anomaly Detection**
+    * Implement SimpleNet from scratch on MVTec dataset of 'leather' and 'metal nut' classes.
+    * Ablation study on the MLP architectures of adapter and discriminator, and scale of Gaussian noise.
+    
+* **Deep Learning for Video Anomaly Detection**
+    * Implement Jigsaw-VAD on avenue dataset
+    * Implement and analyze three versions of temporal permutation prediction
+        * matrix probability prediction
+        * binary classification
+        * multiclass classification
+* **Improved TAnoGAN: Time Series Anomaly Detection with Generative Adversarial Networks**
+    * Time-series anomaly detection
+    * Implement improved model based on existing TAnoGAN with the following methods:
+        * General performance metrics to handle manually threshold setting
+        * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode
+        * Model simplification/pruning to gain model efficiency with compatable performance
+    * contributions: model performance improvements, stability, and efficiency
