@@ -132,7 +132,7 @@
 
 ## 2024 Spring/Summer
 ### Machine Learning for Anomaly Detection
-###### Python
+###### Python, Machine Learning
 * **Anomaly Detection on MNIST**
     * Implement different anomaly detecting methods on MNIST dataset.
         * K Nearest Neighbor
