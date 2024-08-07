@@ -152,7 +152,7 @@
     * Ablation study on the MLP architectures of adapter and discriminator, and scale of Gaussian noise.
     
 * **Deep Learning for Video Anomaly Detection**
-    * Implement Jigsaw-VAD on avenue dataset
+    * Implement Jigsaw-VAD on avenue dataset.
     * Implement and analyze three versions of temporal permutation prediction
         * matrix probability prediction
         * binary classification
@@ -160,7 +160,7 @@
 * **Improved TAnoGAN: Time Series Anomaly Detection with Generative Adversarial Networks**
     * Time-series anomaly detection
     * Implement improved model based on existing TAnoGAN with the following methods:
-        * General performance metrics to handle manually threshold setting
-        * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode
-        * Model simplification/pruning to gain model efficiency with compatable performance
+        * General performance metrics to handle manually threshold setting.
+        * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode.
+        * Model simplification/pruning to gain model efficiency with compatable performance.
     * contributions: model performance improvements, stability, and efficiency
