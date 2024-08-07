@@ -100,6 +100,7 @@
 * Implement methods of regression and classification to predict the rise or fall of TWSE.
 * Improve the performance with Recurrent Neural Network.
 
+<!--
 ### Embedded System
 ###### AVR programmimg(avr-gcc, Arduino IDE), Raspberry Pi
 * Timer
@@ -109,6 +110,7 @@
 * Power Management and Sleep Modes
 * Multi-Threads
 * Synchronization (Protection of Critical Section with Mutex Lock & Semaphore)
+-->
 
 ## 2023 Fall/Winter
 ### Parallel Programming
@@ -127,6 +129,19 @@
     
 * **Observe the behavior of UCX**
     * Learn the UCX framework and program structure.
+
+* **Pixels in Circle**
+    * Parallelize the approximate calculation. 
+    * Implement MPI, pthread, OpenMP and hybrid(MPI + OpenMP) versions.
+
+* **Edge Detection**
+    * Parallelize the convolution calculation of Sobel operator.
+    * Optimize with Coalesced Memory Access, Lower Precision and Shared Memory.
+
+* **DNN Model**
+    * Parallelize the linear function and activation function of DNN Model.
+    * Implement OpenACC version.
+
 * **Linear Regression with RANSAC**
     * Implement OpenMP, CUDA and OpenACC versions.
     * Performance comparison of different parallel methods.
