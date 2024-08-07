@@ -1,0 +1,19 @@
+#
+# Copyright (c) 2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+#
+# See file LICENSE for terms.
+#
+
+prefix = /home/pp23/pp23s17/hw4
+exec_prefix = ${prefix}
+bindir = ${prefix}/bin
+libdir = ${exec_prefix}/lib
+includedir = ${prefix}/include
+
+Name: ucx-uct
+Description: Unified Communication X Library UCT module
+Version: 1.15.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -luct
+Libs.private: -Wl,--undefined=uct_init
+Requires: ucx-ucs

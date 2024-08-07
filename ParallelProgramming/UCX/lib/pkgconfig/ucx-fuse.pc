@@ -1,0 +1,16 @@
+#
+# Copyright (c) 2022, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+#
+# See file LICENSE for terms.
+#
+
+prefix = /home/pp23/pp23s17/hw4
+exec_prefix = ${prefix}
+libdir = ${exec_prefix}/lib/ucx
+
+Name: ucx-fuse
+Description: Unified Communication X Library FUSE module
+Version: 1.15.0
+Libs:
+Libs.private: -L${libdir} -lucs_fuse -Wl,--undefined=ucs_vfs_fuse_init
+Requires: fuse3

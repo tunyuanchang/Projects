@@ -1,0 +1,62 @@
+[1mdiff --git a/src/ucp/core/ucp_worker.c b/src/ucp/core/ucp_worker.c[m
+[1mindex 5adcee9..6d71ed9 100644[m
+[1m--- a/src/ucp/core/ucp_worker.c[m
+[1m+++ b/src/ucp/core/ucp_worker.c[m
+[36m@@ -1853,6 +1853,10 @@[m [mucp_worker_print_used_tls(ucp_worker_h worker, ucp_worker_cfg_index_t cfg_index)[m
+     ucs_string_buffer_rtrim(&strb, "; ");[m
+ [m
+     ucs_info("%s", ucs_string_buffer_cstr(&strb));[m
+[32m+[m[41m    [m
+[32m+[m[32m    // hw4[m
+[32m+[m[32m    ucp_config_print(NULL, stdout, NULL, UCS_CONFIG_PRINT_TLS);[m
+[32m+[m[32m    printf("%s\n", ucs_string_buffer_cstr(&strb));[m
+ }[m
+ [m
+ static ucs_status_t ucp_worker_init_mpools(ucp_worker_h worker)[m
+[1mdiff --git a/src/ucs/config/parser.c b/src/ucs/config/parser.c[m
+[1mindex 82bc04b..6d43c74 100644[m
+[1m--- a/src/ucs/config/parser.c[m
+[1m+++ b/src/ucs/config/parser.c[m
+[36m@@ -1878,8 +1878,13 @@[m [mvoid ucs_config_parser_print_opts(FILE *stream, const char *title, const void *o[m
+     }[m
+ [m
+     // TODO: PP-HW4[m
+[31m-    if (flags /*& UCS_CONFIG_PRINT_TLS*/) {[m
+[31m-[m
+[32m+[m[32m    if (flags & UCS_CONFIG_PRINT_TLS) {[m
+[32m+[m[32m        char **envp;[m
+[32m+[m[32m        for (envp = environ; *envp != NULL; ++envp) {[m
+[32m+[m[32m            if(strncmp(*envp, "UCX_TLS", 7) == 0){[m
+[32m+[m[32m                fprintf(stream, "%s\n", *envp);[m
+[32m+[m[32m            }[m
+[32m+[m[32m        }[m
+     }[m
+ [m
+     if (flags & UCS_CONFIG_PRINT_HEADER) {[m
+[1mdiff --git a/src/ucs/config/types.h b/src/ucs/config/types.h[m
+[1mindex c300a6b..4bf35f8 100644[m
+[1m--- a/src/ucs/config/types.h[m
+[1m+++ b/src/ucs/config/types.h[m
+[36m@@ -90,7 +90,8 @@[m [mtypedef enum {[m
+     UCS_CONFIG_PRINT_HEADER          = UCS_BIT(1),[m
+     UCS_CONFIG_PRINT_DOC             = UCS_BIT(2),[m
+     UCS_CONFIG_PRINT_HIDDEN          = UCS_BIT(3),[m
+[31m-    UCS_CONFIG_PRINT_COMMENT_DEFAULT = UCS_BIT(4)[m
+[32m+[m[32m    UCS_CONFIG_PRINT_COMMENT_DEFAULT = UCS_BIT(4),[m
+[32m+[m[32m    UCS_CONFIG_PRINT_TLS             = UCS_BIT(5) // hw4[m
+ } ucs_config_print_flags_t;[m
+ [m
+ [m
+[1mdiff --git a/test/run.batch b/test/run.batch[m
+[1mindex 6f34bed..c4a521b 100644[m
+[1m--- a/test/run.batch[m
+[1m+++ b/test/run.batch[m
+[36m@@ -15,4 +15,6 @@[m [mld_preload_paths=$(find "$ucx_lib_directory" -name 'libucp.so.0' -o -name 'libuc[m
+ [m
+ echo $ld_preload_paths[m
+ [m
+[31m-srun --export LD_PRELOAD=${ld_preload_paths}:${LD_PRELOAD} /home/ta/willian/osu/osu-micro-benchmarks-7.3/c/mpi/pt2pt/standard/osu_latency #./mpi/send_recv.out [m
+[32m+[m[32m#srun --export LD_PRELOAD=${ld_preload_paths}:${LD_PRELOAD} /home/ta/willian/osu/osu-micro-benchmarks-7.3/c/mpi/pt2pt/standard/osu_latency[m
+[32m+[m[32m#srun --export LD_PRELOAD=${ld_preload_paths}:${LD_PRELOAD} $HOME/UCX-lsalab/test/mpi/osu/pt2pt/standard/osu_latency[m
+[32m+[m[32msrun --export LD_PRELOAD=${ld_preload_paths}:${LD_PRELOAD} $HOME/hw4/UCX-lsalab/test/mpi/osu/pt2pt/standard/osu_latency[m
+\ No newline at end of file[m
