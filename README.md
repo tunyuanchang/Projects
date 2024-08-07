@@ -92,7 +92,7 @@
 * **Node Misclassification with Graph Adversarial Attack**
     * Implement Nettack algorithms for graph adversarial attack on Cora citation network dataset.
 * **Paper Presentation**
-    * selected paper: Attention, Please! Adversarial Defense via Activation Rectification and Preservation [Adversarial Attacks]
+    * selected paper: Attention, Please! Adversarial Defense via Activation Rectification and Preservation [Adversarial Attacks]  
     [citation] Wu, Shangxi, et al. "Attention, please! adversarial defense via activation rectification and preservation." ACM Transactions on Multimedia Computing, Communications and Applications 19.4 (2023): 1-18.
 
 ### Analysis of Trend in Taiwan Stock Market
