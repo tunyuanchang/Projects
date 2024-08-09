@@ -1,5 +1,6 @@
 
 # Projects
+###### cr: tunyuanchang
 
 ## 2020 Fall/Winter
 ### Game with Allegro
@@ -11,11 +12,16 @@
 ### Alpha Othello
 ###### C++, Algorithms, AI
 * Design and implement an AI that can play the boardgame Othello.
+* Enhance AI policy through the following methods:
+    * Tree search algorithms (e.g. Minimax, Alpha-Beta Pruning): to effectively determine the next move
+    * State-action value function design: to evaluate the score of the board
 
 ## 2021 Fall/Winter
 ### Essay Search Engine
 ###### C++, Algorithms, Data Structures
-* Implement "Trie" to build data structure for searching.
+* Develop a simple search engine that can efficiently search through a set of essay files based on various queries.
+* Support exact matches, prefix searches, suffix searches, and utilize "and/or" operators.
+* Implement "Trie" to build data structure for processing query files to execute searches and parsing essay files to generate outputs.
 * Top 10% performance in class competition.
 
 ### Logic Design Laboratory
@@ -26,9 +32,11 @@
 * TCP socket programming for both server and clients
 
 ## 2022 Spring/Summer
-### Meet Deadline Requirements Challenge
+### Meet Deadline Requirements Challenge (MM’21 Grand Challenge)
 ###### C++, Multimedia, Networks, Algorithms
 * Design congestion control algorithms to schedule the transmission for real time communication application.
+* Implement a transmission scheduler to manage block sending sequences within bandwidth constraints by developing a formula that incorporates priorities, deadlines, and block sizes.
+* Implement Reinforcement Learning (RL) to optimize bandwidth usage and prevent packet loss in dynamically changing network conditions by utilizing a congestion window and adjusting the sending rate.
 * Won the first place performance in class competition.
 
 ### Assembly Coding
@@ -38,24 +46,33 @@
 ## 2022 Fall/Winter
 ### Analysis of Street Recognition
 ###### Python, Machine Learning, CNN
-* Build a CNN model to recognize cities from Google Street View images.
-* Visualize and analyze the features that machine focus on.
+* Explore the similarities and differences between how machines and human recognize street view images.
+* Develop CNN models to identify cities from Google Street View images, utilizing self-built CNNs, ResNet, DenseNet, and Xception architectures.
+* Visualize and analyze the features that the models focus on using Grad-CAM.
+* Conduct experiments to improve performance based on visualization analysis:
+    * Crop images: to eliminate the effects of mosaic/pixalation
+    * Apply Canny edge detector: to mitigate the impact of lighting issues, such as blurring
+
 ### Machine Learning
 ###### Python, Mcchine Learning
 * **Dengue Case Prediction**
   * Implement "Gradient Descent" for linear regression from scratch.
   * Build the model to predict the number of dengue cases of three cities with self-built regression model. (Regression)
+
 * **Diabetes Prediction**
   * Implement "Decision Tree" and "Random Forest" for classification from scratch.
   * Build the model to predict whether the patients have diabetes or not with self-built random forest classifier. (Binary classification)
   * Adopt the methods of undersampling for imbalanced data and fisher score for feature selection to improve performance of model.
+
 * **Neural Network**
   * Implement "Neural Network" (including Dense layer and Activation layer[Sigmoid, Softmax, ReLU function]) from scratch.
   * Build the model with optimization algorithm of batch gradient to determine whether breast cancer is malignant or benign with self-built neural network. (Binary classification)
   * Build the model with optimization algorithm of mini-batch gradient to classify MNIST handwritten digits with self-built neural network. (Multi-class classification)
+
 * **Convolutional Neural Network**
   * Implemnt "Convolutional Neural Network" (including Convolution layer and Maxpooling layer) from scratch on the basis of Neural Network above.
   * Build the model with optimization algorithm of mini-batch gradient descent to determine whether a CXR image is normal or not. (Binary classification)
+
 * **EEG Signal Classification**
   * Build RNN-based(LSTM) and CNN-based(EEGNet) models to predict motor imagery class based on the given EEG data(brain signal). (Multi-class classification)
 
@@ -76,13 +93,16 @@
 ###### Python, Machine Learning, Algorithms
 * **Frequent Patterns**
     * Implenment "FP-Growth" from scratch to find freqent patterns with support in transactions.
+
 * **Supervised Binary Classification Problem with Machine Learning**
     * Implenment random forest classifier with feature engineering.
     * Including categorical encoding, date and time engineering, outlier engineering and missing data imputation.
     * Adopt the methods of oversampling for imbalanced data to improve performance of model.
+
 * **Node Classification with Graph Neural Network**
     * Implement GNN for node classification on PubMed dataset.
     * Test the learning ability of graph neural network with lack of labeled data. (take structural information into account)
+
 * **Image Classification with Horizontal Federated Learning**
     * Implement both server and user base for horizontal federated learning with FedAvg algorithms on CIFAR10 dataset.
     * Discussion:
@@ -91,6 +111,7 @@
 
 * **Node Misclassification with Graph Adversarial Attack**
     * Implement Nettack algorithms for graph adversarial attack on Cora citation network dataset.
+
 * **Paper Presentation**
     * selected paper: Attention, Please! Adversarial Defense via Activation Rectification and Preservation [Adversarial Attacks]  
     [citation] Wu, Shangxi, et al. "Attention, please! adversarial defense via activation rectification and preservation." ACM Transactions on Multimedia Computing, Communications and Applications 19.4 (2023): 1-18.
@@ -98,7 +119,7 @@
 ### Analysis of Trend in Taiwan Stock Market
 ###### Python, Machine Learning, Pattern Recognition
 * Implement methods of regression and classification to predict the rise or fall of TWSE.
-* Improve the performance with Recurrent Neural Network.
+* Improve the performance with Recurrent Neural Network (RNN).
 
 <!--
 ### Embedded System
@@ -172,6 +193,7 @@
         * matrix probability prediction
         * binary classification
         * multiclass classification
+
 * **Improved TAnoGAN: Time Series Anomaly Detection with Generative Adversarial Networks**
     * Time-series anomaly detection
     * Implement improved model based on existing TAnoGAN with the following methods:
@@ -179,3 +201,15 @@
         * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode.
         * Model simplification/pruning to gain model efficiency with compatable performance.
     * contributions: model performance improvements, stability, and efficiency
+
+
+### Undergraduate Project: Recommendation System with Graph Neural Network
+###### Graph Neural Network, Recommendation System
+* Focus on “Graph-Based Collaborative Filtering”
+* Study and analyze two architectural frameworks: 
+    * Neural Graph Collaborative Filtering (NGCF)
+    * Fast Incremental Recommendation (FIRE)
+* Enhance the performance of FIRE by two approaches
+    * Apply different time attenuation
+    * Apply time windowing
+
