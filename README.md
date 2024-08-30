@@ -172,7 +172,7 @@
 ###### Python, Machine Learning
 * **Anomaly Detection on MNIST**
     * Implement different anomaly detecting methods on MNIST dataset.
-        * K Nearest Neighbor
+        * K-Nearest Neighbor
         * Cluster-based (k-means clustering)
         * Distance-based (Cosine/Minkowski/Mahalanobis distance function)
         * Density-based (Local Outlier Factor detection algorithm)
@@ -202,14 +202,21 @@
         * Model simplification/pruning to gain model efficiency with compatable performance.
     * contributions: model performance improvements, stability, and efficiency
 
+## 2024 Fall/Winter
+### Natural Language Processing
+###### Python, Machine Learning
 
-### Undergraduate Project: Recommendation System with Graph Neural Network
+
+
+## Undergraduate Project
+### Recommendation System with Graph Neural Network
 ###### Graph Neural Network, Recommendation System
+Advisor: Chih-Ya, Shen
 * Focus on “Graph-Based Collaborative Filtering”
 * Study and analyze two architectural frameworks: 
     * Neural Graph Collaborative Filtering (NGCF)
     * Fast Incremental Recommendation (FIRE)
 * Enhance the performance of FIRE by two approaches
-    * Apply different time attenuation
+    * Apply different time attenuations
     * Apply time windowing
 
