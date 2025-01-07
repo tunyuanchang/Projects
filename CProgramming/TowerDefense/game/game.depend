@@ -1,0 +1,963 @@
+# depslib dependency file v1.0
+1622180946 source:c:\project\i2p(ii)mini_project_2\game\main.cpp
+	"GameEngine.hpp"
+	"LOG.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"StageSelectScene.hpp"
+	"SettingScene.hpp"
+	"WinScene.hpp"
+	"Start_Scene.hpp"
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\gameengine.hpp
+	<allegro5/allegro.h>
+	<string>
+	<unordered_map>
+	"Point.hpp"
+
+1608293287 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/clipboard.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/cpu.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/haptic.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/render_state.h"
+	"allegro5/shader.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/touch_input.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alandroidcfg.h"
+	"allegro5/platform/alraspberrypicfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/allegro_sdl_config.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alplatf.h
+
+1608293290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alandroidcfg.h
+
+1608293290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alraspberrypicfg.h
+	<fcntl.h>
+	<unistd.h>
+	<sys/types.h>
+
+1608293290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1608293290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\alunix.h
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\allegro_sdl_config.h
+	<fcntl.h>
+	<unistd.h>
+
+1608293290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1608293290 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\altime.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\color.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\path.h
+	"allegro5/base.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\utf8.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\blender.h
+	"allegro5/base.h"
+	"allegro5/color.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\clipboard.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/utf8.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\events.h
+	"allegro5/altime.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\config.h
+	"allegro5/file.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\cpu.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1608293287 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\drawing.h
+	"allegro5/color.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\error.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fixed.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\fullscreen_mode.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\haptic.h
+	"allegro5/base.h"
+	"allegro5/display.h"
+	"allegro5/events.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/mouse.h"
+	"allegro5/touch_input.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\keycodes.h
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\touch_input.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\memory.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\monitor.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\render_state.h
+	"allegro5/base.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\shader.h
+	"allegro5/base.h"
+	"allegro5/transformations.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\transformations.h
+	"allegro5/display.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\threads.h
+	"allegro5/altime.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\timer.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1608293289 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\tls.h
+	"allegro5/base.h"
+
+1608293287 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\alcompat.h
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\point.hpp
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\log.hpp
+	<fstream>
+	<iostream>
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\losescene.hpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"IScene.hpp"
+
+1608293287 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_audio.h
+	"allegro5/allegro.h"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\iscene.hpp
+	"Group.hpp"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\group.hpp
+	<list>
+	<utility>
+	"IControl.hpp"
+	"IObject.hpp"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\icontrol.hpp
+	<list>
+	<utility>
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\iobject.hpp
+	<list>
+	<utility>
+	"Point.hpp"
+
+1622725764 c:\project\i2p(ii)mini_project_2\game\playscene.hpp
+	<allegro5/allegro_audio.h>
+	<list>
+	<memory>
+	<utility>
+	<vector>
+	<tuple>
+	"IScene.hpp"
+	"Point.hpp"
+
+1622373334 c:\project\i2p(ii)mini_project_2\game\stageselectscene.hpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"IScene.hpp"
+
+1621585592 c:\project\i2p(ii)mini_project_2\game\winscene.hpp
+	<allegro5/allegro_audio.h>
+	"IScene.hpp"
+
+1621585592 c:\project\i2p(ii)mini_project_2\game\start_scene.hpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"IScene.hpp"
+
+1621585589 source:c:\project\i2p(ii)mini_project_2\game\allegro5exception.cpp
+	<stdexcept>
+	"Allegro5Exception.hpp"
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\allegro5exception.hpp
+	<stdexcept>
+	<string>
+
+1621585589 source:c:\project\i2p(ii)mini_project_2\game\audiohelper.cpp
+	<allegro5/allegro_audio.h>
+	"Allegro5Exception.hpp"
+	"AudioHelper.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\audiohelper.hpp
+	<allegro5/allegro_audio.h>
+	<string>
+	<memory>
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\resources.hpp
+	<allegro5/bitmap.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<memory>
+	<string>
+	<unordered_map>
+
+1608293287 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1622540167 source:c:\project\i2p(ii)mini_project_2\game\bullet.cpp
+	"Bullet.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\bullet.hpp
+	<string>
+	"Sprite.hpp"
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\sprite.hpp
+	<allegro5/color.h>
+	<string>
+	"Image.hpp"
+	"Point.hpp"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\image.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\collider.hpp
+	<allegro5/bitmap.h>
+	<memory>
+
+1622712582 c:\project\i2p(ii)mini_project_2\game\enemy.hpp
+	<list>
+	<vector>
+	<string>
+	"Point.hpp"
+	"Sprite.hpp"
+
+1621585589 source:c:\project\i2p(ii)mini_project_2\game\collider.cpp
+	<allegro5/color.h>
+	<memory>
+	"Collider.hpp"
+	"Point.hpp"
+
+1621585589 source:c:\project\i2p(ii)mini_project_2\game\dirtyeffect.cpp
+	<allegro5/base.h>
+	<allegro5/color.h>
+	<random>
+	"DirtyEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\dirtyeffect.hpp
+	<string>
+	"Sprite.hpp"
+
+1622715049 source:c:\project\i2p(ii)mini_project_2\game\enemy.cpp
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<cmath>
+	<random>
+	<string>
+	<vector>
+	"AudioHelper.hpp"
+	"Bullet.hpp"
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"IObject.hpp"
+	"LOG.hpp"
+	"PlayScene.hpp"
+	"Turret.hpp"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1621585589 c:\project\i2p(ii)mini_project_2\game\explosioneffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1622714773 c:\project\i2p(ii)mini_project_2\game\turret.hpp
+	<allegro5/base.h>
+	<list>
+	<string>
+	"Sprite.hpp"
+
+1622374510 source:c:\project\i2p(ii)mini_project_2\game\explosioneffect.cpp
+	<cmath>
+	<string>
+	"ExplosionEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1621585589 source:c:\project\i2p(ii)mini_project_2\game\gameengine.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_acodec.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_ttf.h>
+	<chrono>
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"LOG.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1608293287 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_acodec.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_audio.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_image.h
+	"allegro5/base.h"
+
+1608293288 c:\allegro-mingw-gcc6.2.0-x86-static-5.2.2\allegro\include\\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\group.cpp
+	<stdexcept>
+	<utility>
+	"Group.hpp"
+	"IControl.hpp"
+	"IObject.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\icecreambullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"IceCreamBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\icecreambullet.hpp
+	"Bullet.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\icontrol.cpp
+	"IControl.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\image.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"IObject.hpp"
+	"Image.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\imagebutton.cpp
+	<functional>
+	<memory>
+	"Collider.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\imagebutton.hpp
+	<allegro5/bitmap.h>
+	<functional>
+	<memory>
+	<string>
+	"IControl.hpp"
+	"Image.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\iobject.cpp
+	"Point.hpp"
+	"IObject.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\iscene.cpp
+	<allegro5/allegro.h>
+	"IScene.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\label.cpp
+	<allegro5/allegro_font.h>
+	<memory>
+	"IObject.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1621585590 c:\project\i2p(ii)mini_project_2\game\label.hpp
+	<allegro5/allegro_font.h>
+	<allegro5/color.h>
+	<memory>
+	<string>
+	"IObject.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\log.cpp
+	<iostream>
+	<fstream>
+	"LOG.hpp"
+
+1621585590 source:c:\project\i2p(ii)mini_project_2\game\losescene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"LoseScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1622725949 source:c:\project\i2p(ii)mini_project_2\game\normalenemy.cpp
+	<string>
+	"NormalEnemy.hpp"
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\normalenemy.hpp
+	"Enemy.hpp"
+
+1621585591 source:c:\project\i2p(ii)mini_project_2\game\plane.cpp
+	<allegro5/allegro.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Collider.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\plane.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1622964790 source:c:\project\i2p(ii)mini_project_2\game\plateletturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"PockyBullet.hpp"
+	"Group.hpp"
+	"PlateletTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Enemy.hpp"
+	"ShootEffect.hpp"
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\pockybullet.hpp
+	"Bullet.hpp"
+
+1622696895 c:\project\i2p(ii)mini_project_2\game\plateletturret.hpp
+	"Turret.hpp"
+
+1622782780 source:c:\project\i2p(ii)mini_project_2\game\playscene.cpp
+	<allegro5/allegro.h>
+	<algorithm>
+	<random>
+	<cmath>
+	<fstream>
+	<functional>
+	<vector>
+	<queue>
+	<string>
+	<memory>
+	<numeric>
+	"AudioHelper.hpp"
+	"DirtyEffect.hpp"
+	"ShootEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"Image.hpp"
+	"Label.hpp"
+	"NormalEnemy.hpp"
+	"PlateletTurret.hpp"
+	"WBCellTurret.hpp"
+	"NewTurret.hpp"
+	"PotatoTurret.hpp"
+	"MaxTurret.hpp"
+	"BombTurret.hpp"
+	"Plane.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+	"SofaEnemy.hpp"
+	"StrongEnemy.hpp"
+	"NewEnemy.hpp"
+	"Sprite.hpp"
+	"Turret.hpp"
+	"TurretButton.hpp"
+	"LOG.hpp"
+
+1622696922 c:\project\i2p(ii)mini_project_2\game\wbcellturret.hpp
+	"Turret.hpp"
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\sofaenemy.hpp
+	"Enemy.hpp"
+
+1622730642 c:\project\i2p(ii)mini_project_2\game\strongenemy.hpp
+	"Enemy.hpp"
+
+1621585592 c:\project\i2p(ii)mini_project_2\game\turretbutton.hpp
+	<string>
+	"ImageButton.hpp"
+	"Sprite.hpp"
+
+1622537912 source:c:\project\i2p(ii)mini_project_2\game\pockybullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"PockyBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"ShootEffect.hpp"
+
+1621585591 source:c:\project\i2p(ii)mini_project_2\game\point.cpp
+	<cmath>
+	"Point.hpp"
+
+1621585591 source:c:\project\i2p(ii)mini_project_2\game\resources.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_audio.h>
+	<allegro5/allegro_font.h>
+	<list>
+	<string>
+	<utility>
+	"Allegro5Exception.hpp"
+	"LOG.hpp"
+	"Resources.hpp"
+
+1621585591 source:c:\project\i2p(ii)mini_project_2\game\slider.cpp
+	<algorithm>
+	<string>
+	"Point.hpp"
+	"Slider.hpp"
+
+1621585591 c:\project\i2p(ii)mini_project_2\game\slider.hpp
+	<functional>
+	"Image.hpp"
+	"ImageButton.hpp"
+
+1622731651 source:c:\project\i2p(ii)mini_project_2\game\sofaenemy.cpp
+	<string>
+	"SofaEnemy.hpp"
+
+1621585591 source:c:\project\i2p(ii)mini_project_2\game\sprite.cpp
+	<allegro5/allegro.h>
+	<memory>
+	"Image.hpp"
+	"Point.hpp"
+	"Sprite.hpp"
+
+1622453795 source:c:\project\i2p(ii)mini_project_2\game\stageselectscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"StageSelectScene.hpp"
+	"SettingScene.hpp"
+
+1622372631 source:c:\project\i2p(ii)mini_project_2\game\start_scene.cpp
+	<functional>
+	<memory>
+	<string>
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Start_Scene.hpp"
+	"StageSelectScene.hpp"
+
+1622783230 source:c:\project\i2p(ii)mini_project_2\game\strongenemy.cpp
+	<string>
+	<cmath>
+	"StrongEnemy.hpp"
+
+1622783079 source:c:\project\i2p(ii)mini_project_2\game\turret.cpp
+	<allegro5/color.h>
+	<allegro5/allegro_primitives.h>
+	<cmath>
+	<random>
+	<utility>
+	"AudioHelper.hpp"
+	"ExplosionEffect.hpp"
+	"Enemy.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IObject.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Turret.hpp"
+	"PlayScene.hpp"
+
+1621585592 source:c:\project\i2p(ii)mini_project_2\game\turretbutton.cpp
+	<allegro5/color.h>
+	"GameEngine.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"TurretButton.hpp"
+
+1622732904 source:c:\project\i2p(ii)mini_project_2\game\wbcellturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"IceCreamBullet.hpp"
+	"Group.hpp"
+	"WBCellTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Enemy.hpp"
+
+1621585592 source:c:\project\i2p(ii)mini_project_2\game\winscene.cpp
+	<functional>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"Image.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"WinScene.hpp"
+
+1621841483 c:\project\i2p(ii)mini_project_2\game\settingscene.hpp
+	<allegro5/allegro_audio.h>
+	<memory>
+	"IScene.hpp"
+
+1622374106 source:c:\project\i2p(ii)mini_project_2\game\settingscene.cpp
+	<allegro5/allegro_audio.h>
+	<functional>
+	<memory>
+	<string>
+	"AudioHelper.hpp"
+	"GameEngine.hpp"
+	"ImageButton.hpp"
+	"Label.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Resources.hpp"
+	"Slider.hpp"
+	"SettingScene.hpp"
+	"StageSelectScene.hpp"
+
+1622732209 source:c:\project\i2p(ii)mini_project_2\game\newbullet.cpp
+	<allegro5/base.h>
+	<random>
+	<string>
+	"DirtyEffect.hpp"
+	"Enemy.hpp"
+	"NewBullet.hpp"
+	"Group.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+
+1622698176 c:\project\i2p(ii)mini_project_2\game\newbullet.hpp
+	"Bullet.hpp"
+
+1622733148 source:c:\project\i2p(ii)mini_project_2\game\newenemy.cpp
+	<string>
+	<cmath>
+	"NewEnemy.hpp"
+
+1622730630 c:\project\i2p(ii)mini_project_2\game\newenemy.hpp
+	"Enemy.hpp"
+
+1622732877 source:c:\project\i2p(ii)mini_project_2\game\newturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"NewBullet.hpp"
+	"Group.hpp"
+	"NewTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Enemy.hpp"
+
+1622537422 c:\project\i2p(ii)mini_project_2\game\newturret.hpp
+	"Turret.hpp"
+
+1622539154 source:c:\project\i2p(ii)mini_project_2\game\shooteffect.cpp
+	<cmath>
+	<string>
+	"ShootEffect.hpp"
+	"GameEngine.hpp"
+	"Group.hpp"
+	"IScene.hpp"
+	"PlayScene.hpp"
+	"Resources.hpp"
+
+1622536144 c:\project\i2p(ii)mini_project_2\game\shooteffect.hpp
+	<allegro5/bitmap.h>
+	<memory>
+	<vector>
+	"Sprite.hpp"
+
+1622701246 source:c:\project\i2p(ii)mini_project_2\game\potatoturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"PotatoTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Enemy.hpp"
+
+1622696888 c:\project\i2p(ii)mini_project_2\game\potatoturret.hpp
+	"Turret.hpp"
+
+1622698759 source:c:\project\i2p(ii)mini_project_2\game\bombturret.cpp
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"BombTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Enemy.hpp"
+
+1622695954 c:\project\i2p(ii)mini_project_2\game\bombturret.hpp
+	"Turret.hpp"
+
+1622732839 source:c:\project\i2p(ii)mini_project_2\game\maxturret.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/color.h>
+	<allegro5/base.h>
+	<cmath>
+	<string>
+	"AudioHelper.hpp"
+	"Group.hpp"
+	"MaxTurret.hpp"
+	"PlayScene.hpp"
+	"Point.hpp"
+	"Enemy.hpp"
+	"Sprite.hpp"
+	"GameEngine.hpp"
+	"Collider.hpp"
+	"ExplosionEffect.hpp"
+
+1622714909 c:\project\i2p(ii)mini_project_2\game\maxturret.hpp
+	"Turret.hpp"
+

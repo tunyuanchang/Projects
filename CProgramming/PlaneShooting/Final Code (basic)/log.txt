@@ -1,0 +1,97 @@
+There are total 2 supported mouse buttons
+Allegro5 initialized
+Game begin
+resized image: 1.png
+resized image: start-bg-bright.png
+resized image: start-bg-dark.png
+Change scene from 0 to 1
+Game initialized
+Game start event loop
+Mouse button 1 down at (573, 143)
+Mouse button 1 up at (573, 143)
+Key with keycode 67 down
+Change scene from 1 to 2
+stop audio (bgm)
+Key with keycode 67 up
+Key with keycode 216 down
+Key with keycode 216 up
+Key with keycode 75 down
+Key with keycode 75 up
+Key with keycode 82 down
+Key with keycode 75 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 85 down
+Key with keycode 85 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 85 down
+Key with keycode 85 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Change scene from 2 to 4
+stop audio (bgm)
+Key with keycode 83 up
+Key with keycode 75 up
+Key with keycode 67 down
+Change scene from 4 to 2
+stop audio (bgm)
+Key with keycode 67 up
+Key with keycode 75 down
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 82 down
+Key with keycode 82 up
+Key with keycode 83 down
+Key with keycode 83 up
+Key with keycode 75 up
+Key with keycode 23 down
+Key with keycode 23 up
+Key with keycode 5 down
+Key with keycode 5 up
+Key with keycode 18 down
+Key with keycode 18 up
+Key with keycode 83 down
+Key with keycode 75 down
+Key with keycode 83 up
+Change scene from 2 to 4
+stop audio (bgm)
+Key with keycode 75 up
+Window close button clicked
+Game end

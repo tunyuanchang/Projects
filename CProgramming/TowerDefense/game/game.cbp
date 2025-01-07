@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/allegro-mingw-gcc6.2.0-x86-static-5.2.2/allegro/lib/liballegro_monolith-debug.dll.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/allegro-mingw-gcc6.2.0-x86-static-5.2.2/allegro/lib/liballegro_monolith.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="C:/allegro-mingw-gcc6.2.0-x86-static-5.2.2/allegro/include/" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/allegro-mingw-gcc6.2.0-x86-static-5.2.2/allegro/lib/" />
+		</Linker>
+		<Unit filename="Allegro5Exception.cpp" />
+		<Unit filename="Allegro5Exception.hpp" />
+		<Unit filename="AudioHelper.cpp" />
+		<Unit filename="AudioHelper.hpp" />
+		<Unit filename="BombTurret.cpp" />
+		<Unit filename="BombTurret.hpp" />
+		<Unit filename="Bullet.cpp" />
+		<Unit filename="Bullet.hpp" />
+		<Unit filename="Collider.cpp" />
+		<Unit filename="Collider.hpp" />
+		<Unit filename="DirtyEffect.cpp" />
+		<Unit filename="DirtyEffect.hpp" />
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.hpp" />
+		<Unit filename="ExplosionEffect.cpp" />
+		<Unit filename="ExplosionEffect.hpp" />
+		<Unit filename="GameEngine.cpp" />
+		<Unit filename="GameEngine.hpp" />
+		<Unit filename="Group.cpp" />
+		<Unit filename="Group.hpp" />
+		<Unit filename="IControl.cpp" />
+		<Unit filename="IControl.hpp" />
+		<Unit filename="IObject.cpp" />
+		<Unit filename="IObject.hpp" />
+		<Unit filename="IScene.cpp" />
+		<Unit filename="IScene.hpp" />
+		<Unit filename="IceCreamBullet.cpp" />
+		<Unit filename="IceCreamBullet.hpp" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.hpp" />
+		<Unit filename="ImageButton.cpp" />
+		<Unit filename="ImageButton.hpp" />
+		<Unit filename="LOG.cpp" />
+		<Unit filename="LOG.hpp" />
+		<Unit filename="Label.cpp" />
+		<Unit filename="Label.hpp" />
+		<Unit filename="LoseScene.cpp" />
+		<Unit filename="LoseScene.hpp" />
+		<Unit filename="Makefile" />
+		<Unit filename="MaxTurret.cpp" />
+		<Unit filename="MaxTurret.hpp" />
+		<Unit filename="NewBullet.cpp" />
+		<Unit filename="NewBullet.hpp" />
+		<Unit filename="NewEnemy.cpp" />
+		<Unit filename="NewEnemy.hpp" />
+		<Unit filename="NewTurret.cpp" />
+		<Unit filename="NewTurret.hpp" />
+		<Unit filename="NormalEnemy.cpp" />
+		<Unit filename="NormalEnemy.hpp" />
+		<Unit filename="Plane.cpp" />
+		<Unit filename="Plane.hpp" />
+		<Unit filename="PlateletTurret.cpp" />
+		<Unit filename="PlateletTurret.hpp" />
+		<Unit filename="PlayScene.cpp" />
+		<Unit filename="PlayScene.hpp" />
+		<Unit filename="PockyBullet.cpp" />
+		<Unit filename="PockyBullet.hpp" />
+		<Unit filename="Point.cpp" />
+		<Unit filename="Point.hpp" />
+		<Unit filename="PotatoTurret.cpp" />
+		<Unit filename="PotatoTurret.hpp" />
+		<Unit filename="Resources.cpp" />
+		<Unit filename="Resources.hpp" />
+		<Unit filename="SettingScene.cpp" />
+		<Unit filename="SettingScene.hpp" />
+		<Unit filename="ShootEffect.cpp" />
+		<Unit filename="ShootEffect.hpp" />
+		<Unit filename="Slider.cpp" />
+		<Unit filename="Slider.hpp" />
+		<Unit filename="SofaEnemy.cpp" />
+		<Unit filename="SofaEnemy.hpp" />
+		<Unit filename="Sprite.cpp" />
+		<Unit filename="Sprite.hpp" />
+		<Unit filename="StageSelectScene.cpp" />
+		<Unit filename="StageSelectScene.hpp" />
+		<Unit filename="Start_Scene.cpp" />
+		<Unit filename="Start_Scene.hpp" />
+		<Unit filename="StrongEnemy.cpp" />
+		<Unit filename="StrongEnemy.hpp" />
+		<Unit filename="Turret.cpp" />
+		<Unit filename="Turret.hpp" />
+		<Unit filename="TurretButton.cpp" />
+		<Unit filename="TurretButton.hpp" />
+		<Unit filename="WBCellTurret.cpp" />
+		<Unit filename="WBCellTurret.hpp" />
+		<Unit filename="WinScene.cpp" />
+		<Unit filename="WinScene.hpp" />
+		<Unit filename="log.txt" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

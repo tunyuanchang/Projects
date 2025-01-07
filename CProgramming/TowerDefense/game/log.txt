@@ -1,0 +1,126 @@
+[INFO] Game Initializing...
+[INFO] Loaded Resource<image>: resources/images/icon.png
+[INFO] Loaded window icon from: icon.png
+[INFO] There are total 2 supported mouse buttons
+[INFO] Allegro5 initialized
+[INFO] Game begin
+[INFO] Loaded Resource<image>: resources/images/start_scene/out.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/start_scene/out.png
+[INFO] Loaded Resource<image>: resources/images/start_scene/in.png
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 48
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 108
+[INFO] Game initialized
+[INFO] Game start event loop
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png
+[INFO] Loaded Resource<image>: resources/images/stage-select/floor.png
+[INFO] Loaded Resource<audio>: resources/audios/select.ogg
+[INFO] Created<sample_instance>: resources/audios/select.ogg
+[INFO] Loaded Resource<image>: resources/images/stage-select/dirt.png scaled to 250x100
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Loaded Resource<image>: resources/images/play/deep-pink.png scaled to 128x128
+[INFO] Loaded Resource<image>: resources/images/play/pink.png scaled to 128x128
+[INFO] Loaded Resource<image>: resources/images/play/sand.png scaled to 1536x128
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 32
+[INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 24
+[INFO] Loaded Resource<image>: resources/images/play/turret-1.png
+[INFO] Loaded Resource<image>: resources/images/play/floor.png
+[INFO] Loaded Resource<image>: resources/images/play/dirt.png
+[INFO] Loaded Resource<image>: resources/images/play/turret-2.png
+[INFO] Loaded Resource<image>: resources/images/play/turret-3.png
+[INFO] Loaded Resource<image>: resources/images/play/turret-4.png
+[INFO] Loaded Resource<image>: resources/images/play/turret-5.png
+[INFO] Loaded Resource<image>: resources/images/play/bomb.png
+[INFO] Loaded Resource<image>: resources/images/play/benjamin.png
+[INFO] Loaded Resource<image>: resources/images/play/target.png
+[INFO] Loaded Resource<audio>: resources/audios/astronomia.ogg
+[INFO] Created<sample_instance>: resources/audios/astronomia.ogg
+[INFO] Loaded Resource<image>: resources/images/lose/benjamin-happy.png
+[INFO] Loaded Resource<audio>: resources/audios/play.ogg
+[INFO] Changed to play scene
+[INFO] Loaded Resource<image>: resources/images/play/enemy-3.png
+[INFO] Loaded Resource<image>: resources/images/play/shoot-1.png
+[INFO] Loaded Resource<image>: resources/images/play/shoot-2.png
+[INFO] Loaded Resource<image>: resources/images/play/shoot-3.png
+[INFO] Loaded Resource<image>: resources/images/play/shoot-4.png
+[INFO] Loaded Resource<image>: resources/images/play/bullet-2.png
+[INFO] Loaded Resource<audio>: resources/audios/laser.wav
+[INFO] Loaded Resource<image>: resources/images/play/dirty-2.png
+[INFO] Loaded Resource<image>: resources/images/play/enemy-1.png
+[INFO] Loaded Resource<image>: resources/images/play/explosion-1.png
+[INFO] Loaded Resource<image>: resources/images/play/explosion-2.png
+[INFO] Loaded Resource<image>: resources/images/play/explosion-3.png
+[INFO] Loaded Resource<image>: resources/images/play/explosion-4.png
+[INFO] Loaded Resource<image>: resources/images/play/explosion-5.png
+[INFO] Loaded Resource<image>: resources/images/play/dirty-1.png
+[INFO] Loaded Resource<image>: resources/images/play/dirty-3.png
+[INFO] Loaded Resource<image>: resources/images/play/enemy-2.png
+[INFO] Loaded Resource<audio>: resources/audios/explosion.wav
+[INFO] Created<sample_instance>: resources/audios/astronomia.ogg
+[INFO] stopped audio (bgm)
+[INFO] stopped audio (sample)
+[INFO] Loaded Resource<image>: resources/images/win/dirt.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/win/dirt.png
+[INFO] Loaded Resource<image>: resources/images/win/floor.png
+[INFO] Created<sample_instance>: resources/audios/astronomia.ogg
+[INFO] Changed to lose scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: resources/audios/select.ogg
+[INFO] Changed to stage-select scene
+[INFO] Game Terminating...
+[INFO] stopped audio (sample)
+[INFO] Game terminated
+[INFO] Game end
+[INFO] Destroyed Resource<image>: play/dirty-3.png
+[INFO] Destroyed Resource<image>: play/explosion-5.png
+[INFO] Destroyed Resource<image>: play/explosion-4.png
+[INFO] Destroyed Resource<image>: play/explosion-2.png
+[INFO] Destroyed Resource<image>: play/explosion-1.png
+[INFO] Destroyed Resource<image>: win/dirt.png?400x100
+[INFO] Destroyed Resource<image>: play/bullet-2.png
+[INFO] Destroyed Resource<image>: play/shoot-4.png
+[INFO] Destroyed Resource<image>: play/shoot-1.png
+[INFO] Destroyed Resource<image>: play/enemy-3.png
+[INFO] Destroyed Resource<image>: win/dirt.png
+[INFO] Destroyed Resource<image>: play/deep-pink.png?128x128
+[INFO] Destroyed Resource<image>: stage-select/floor.png
+[INFO] Destroyed Resource<image>: stage-select/dirt.png?400x100
+[INFO] Destroyed Resource<image>: play/enemy-1.png
+[INFO] Destroyed Resource<image>: play/turret-4.png
+[INFO] Destroyed Resource<image>: win/floor.png
+[INFO] Destroyed Resource<image>: play/target.png
+[INFO] Destroyed Resource<image>: icon.png
+[INFO] Destroyed Resource<image>: start_scene/out.png?400x100
+[INFO] Destroyed Resource<image>: play/pink.png?128x128
+[INFO] Destroyed Resource<image>: play/turret-5.png
+[INFO] Destroyed Resource<image>: start_scene/out.png
+[INFO] Destroyed Resource<image>: start_scene/in.png
+[INFO] Destroyed Resource<image>: play/sand.png?1536x128
+[INFO] Destroyed Resource<image>: stage-select/dirt.png
+[INFO] Destroyed Resource<image>: play/turret-1.png
+[INFO] Destroyed Resource<image>: play/dirty-1.png
+[INFO] Destroyed Resource<image>: play/dirt.png
+[INFO] Destroyed Resource<image>: play/floor.png
+[INFO] Destroyed Resource<image>: stage-select/dirt.png?250x100
+[INFO] Destroyed Resource<image>: play/turret-2.png
+[INFO] Destroyed Resource<image>: play/dirty-2.png
+[INFO] Destroyed Resource<image>: play/turret-3.png
+[INFO] Destroyed Resource<image>: play/enemy-2.png
+[INFO] Destroyed Resource<image>: play/explosion-3.png
+[INFO] Destroyed Resource<image>: play/shoot-3.png
+[INFO] Destroyed Resource<image>: play/bomb.png
+[INFO] Destroyed Resource<image>: play/shoot-2.png
+[INFO] Destroyed Resource<image>: play/benjamin.png
+[INFO] Destroyed Resource<image>: lose/benjamin-happy.png
+[INFO] Destroyed Resource<font>: pirulen.ttf?24
+[INFO] Destroyed Resource<font>: pirulen.ttf?32
+[INFO] Destroyed Resource<font>: pirulen.ttf?108
+[INFO] Destroyed Resource<font>: pirulen.ttf?48
+[INFO] Destroyed<sample_instance>: astronomia.ogg
+[INFO] Destroyed<sample_instance>: select.ogg
+[INFO] Destroyed Resource<audio>: explosion.wav
+[INFO] Destroyed Resource<audio>: astronomia.ogg
+[INFO] Destroyed Resource<audio>: select.ogg
+[INFO] Destroyed Resource<audio>: play.ogg
+[INFO] Destroyed Resource<audio>: laser.wav
