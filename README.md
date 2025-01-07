@@ -197,14 +197,29 @@
 * **Improved TAnoGAN: Time Series Anomaly Detection with Generative Adversarial Networks**
     * Time-series anomaly detection
     * Implement improved model based on existing TAnoGAN with the following methods:
-        * General performance metrics to handle manually threshold setting.
-        * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode.
-        * Model simplification/pruning to gain model efficiency with compatable performance.
+        * General performance metrics to handle manually threshold setting
+        * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode
+        * Model simplification/pruning to gain model efficiency with compatable performance
     * contributions: model performance improvements, stability, and efficiency
 
 ## 2024 Fall/Winter
 ### Natural Language Processing
 ###### Python, Machine Learning
+* **Word Analogy**
+    * Implement analogy task on Google World Analogy dataset
+    * Build the word embedding model to capture semantic and syntactic relationships
+
+* **Arithmetic as a Language**
+    * Implement sequence generation for arithmetic expressions
+    * Build the recurrent neural network models (RNN & LSTM) to perform arithmetic operations
+
+* **Multi-Output Learning**
+    * Implement multi-output learning based on BERT models
+    * Fine-tuning the BERT models to perform regression and classification tasks on paragraphs
+
+* **Retrieval-Augmented Generation with LangChain**
+    * Implement Retrieval-Augmented Generation (RAG) for question answering
+    * Build the retriver models and the RAG system with llama3
 
 
 
