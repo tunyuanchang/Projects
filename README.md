@@ -200,7 +200,7 @@
         * General performance metrics to handle manually threshold setting
         * Wasserstein Generative Adversarial Networks (WGANs) to deal with model instability and possibility of collapse mode
         * Model simplification/pruning to gain model efficiency with compatable performance
-    * contributions: model performance improvements, stability, and efficiency
+    * Contributions: model performance improvements, stability, and efficiency
 
 ## 2024 Fall/Winter
 ### Natural Language Processing
