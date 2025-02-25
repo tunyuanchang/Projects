@@ -1,7 +1,6 @@
 
 # Projects
-###### cr: tunyuanchang
-###### last update: Feb. 25, 2025
+###### cr: tunyuanchang (last update: Feb. 25, 2025)
 
 ## 2020 Fall/Winter
 ### Game with Allegro
