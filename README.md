@@ -47,7 +47,7 @@
 ### Analysis of Street Recognition
 ###### Python, Machine Learning, CNN
 * Explore the similarities and differences between how machines and human recognize street view images
-* Develop CNN models to identify cities from Google Street View images, utilizing self-built CNNs, ResNet, DenseNet, and Xception architectures
+* Develop CNN models to identify cities from Google Street View images, utilizing `self-built CNNs`, `ResNet`, `DenseNet`, and `Xception` architectures
 * Visualize and analyze the features that the models focus on using Grad-CAM
 * Conduct experiments to improve performance based on visualization analysis:
     * Crop images: to eliminate the effects of mosaic/pixalation
@@ -65,7 +65,7 @@
   * Adopt the methods of undersampling for imbalanced data and fisher score for feature selection to improve performance of model
 
 * **Neural Network**
-  * Implement "Neural Network" (including Dense layer and Activation layer `Sigmoid`, `Softmax`, `ReLU function`) from scratch
+  * Implement "Neural Network" (including Dense layer and Activation layer with `Sigmoid`, `Softmax`, `ReLU function`) from scratch
   * Build the model with optimization algorithm of batch gradient to determine whether breast cancer is malignant or benign with self-built neural network (Binary classification)
   * Build the model with optimization algorithm of mini-batch gradient to classify MNIST handwritten digits with self-built neural network (Multi-class classification)
 
@@ -74,7 +74,7 @@
   * Build the model with optimization algorithm of mini-batch gradient descent to determine whether a CXR image is normal or not (Binary classification)
 
 * **EEG Signal Classification**
-  * Build RNN-based(LSTM) and CNN-based(EEGNet) models to predict motor imagery class based on the given EEG data(brain signal) (Multi-class classification)
+  * Build RNN-based `LSTM` and CNN-based `EEGNet` models to predict motor imagery class based on the given EEG data(brain signal) (Multi-class classification)
 
 ### Trading Valley Strategy Design
 ###### Python, Machine Learning
@@ -141,31 +141,31 @@
     * Parallelize the sorting with "Odd-Even Sort" algorithm
 
 * **Mandelbrot Set**
-    * Implement pthread and hybrid(MPI + OpenMP) versions
+    * Implement pthread and hybrid (MPI + OpenMP) versions
     * Parallelize the calculation of "Mandelbrot Set"
     
 * **All-Pairs Shortest Path**
-    * Implement CPU(pthread), single-GPU(CUDA) and multi-GPU(CUDA + OpenMP) versions
+    * Implement CPU (pthread), single-GPU (CUDA) and multi-GPU (CUDA + OpenMP) versions
     * Parallelize the calculation of APSP with "Blocked Floyd-Warshall" algorithm
     
 * **Observe the behavior of UCX**
-    * Learn the UCX framework and program structure
+    * Learn the UCX framework and program structure  
 
 * **Pixels in Circle**
+    * Implement MPI, pthread, OpenMP and hybrid (MPI + OpenMP) versions  
     * Parallelize the approximate calculation. 
-    * Implement MPI, pthread, OpenMP and hybrid(MPI + OpenMP) versions
 
 * **Edge Detection**
     * Parallelize the convolution calculation of Sobel operator
     * Optimize with Coalesced Memory Access, Lower Precision and Shared Memory
 
 * **DNN Model**
+    * Implement OpenACC version  
     * Parallelize the linear function and activation function of DNN Model
-    * Implement OpenACC version
-
+    
 * **Linear Regression with RANSAC**
     * Implement OpenMP, CUDA and OpenACC versions
-    * Performance comparison of different parallel methods
+    * Profiling and performance comparison of different parallel methods
 
 ## 2024 Spring/Summer
 ### Machine Learning for Anomaly Detection
@@ -173,12 +173,12 @@
 * **Anomaly Detection on MNIST**
     * Implement different anomaly detecting methods on MNIST dataset
         * K-Nearest Neighbor
-        * Cluster-based (k-means clustering)
-        * Distance-based (Cosine/Minkowski/Mahalanobis distance function)
-        * Density-based (Local Outlier Factor detection algorithm)
+        * Cluster-based (K-Means Clustering)
+        * Distance-based (`Cosine`, `Minkowski`, `Mahalanobis` Distance Function)
+        * Density-based (Local Outlier Factor Detection Algorithm)
         
 * **Anomaly Detection for Time-Series Data**
-    * Implement different anomaly detecting methods on timeseries dataset(Wafer. ECG200)
+    * Implement different anomaly detecting methods on timeseries dataset (Wafer, ECG200)
         * PCA Reconstruction
         * Discrete Fourier Transform
         * Discrete Haar Wavelet Transform
@@ -190,9 +190,9 @@
 * **Deep Learning for Video Anomaly Detection**
     * Implement Jigsaw-VAD on avenue dataset
     * Implement and analyze three versions of temporal permutation prediction
-        * matrix probability prediction
-        * binary classification
-        * multiclass classification
+        * Matrix probability prediction
+        * Binary classification
+        * Multiclass classification
 
 * **Improved TAnoGAN: Time Series Anomaly Detection with Generative Adversarial Networks**
     * Time-series anomaly detection
@@ -211,7 +211,7 @@
 
 * **Arithmetic as a Language**
     * Implement sequence generation for arithmetic expressions
-    * Build the recurrent neural network models (RNN & LSTM) to perform arithmetic operations
+    * Build the recurrent neural network models (RNN, LSTM) to perform arithmetic operations
 
 * **Multi-Output Learning**
     * Implement multi-output learning based on BERT models
@@ -231,7 +231,7 @@ Advisor: Chih-Ya, Shen
 * Study and analyze two architectural frameworks: 
     * Neural Graph Collaborative Filtering (NGCF)
     * Fast Incremental Recommendation (FIRE)
-* Enhance the performance of FIRE by two approaches
+* Enhance the performance of `FIRE` by two approaches
     * Apply different time attenuations
     * Apply time windowing
 
